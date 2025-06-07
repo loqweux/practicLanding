@@ -28,7 +28,7 @@ export default function Header() {
   const titleWords = ["ОКНА", "ДОНЕЦК", "ДНР"];
 
   return (
-    <header className="">
+    <header className="mb-35">
       <div className="mx-[20%] flex justify-between py-[18px]">
         {contactItems.map((item, index) => (
           <div key={index} className="flex items-center">
@@ -82,8 +82,11 @@ export default function Header() {
             ))}
           </div>
 
-          <p className="text-[#16192C] text-[48px] font-bold leading-[56px] max-w-[796px] mb-5">
-            Безупречное качество, профессиональная установка
+          <p className="text-[#16192C] text-[48px] font-bold leading-[56px]">
+            Безупречное качество,
+          </p>
+          <p className="text-[#16192C] text-[48px] font-bold leading-[56px] mb-5">
+            профессиональная установка
           </p>
 
           <span className="text-[#4d4f57] text-[24px] leading-[28px]">
@@ -95,18 +98,20 @@ export default function Header() {
             Заказать звонок
           </button>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {featureItems.map((item) => (
               <div
                 key={item.icon}
-                className="w-[243px] h-[48px] flex items-center gap-3 py-3 px-4 my-5 bg-white rounded-lg"
+                className="flex items-center py-3 px-4 bg-white rounded-lg"
               >
                 <img
                   src={`./header/${item.icon}.svg`}
                   alt={item.icon}
-                  className="w-6 h-6"
+                  className="w-6 h-6 pr-1"
                 />
-                <p className="text-gray-800 text-sm">{item.text}</p>
+                <p className="text-[#4d4f57] text-[16px] font-semibold leading-[19px] tracking-normal text-nowrap">
+                  {item.text}
+                </p>
               </div>
             ))}
           </div>
