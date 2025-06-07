@@ -10,10 +10,10 @@ export default function Slider() {
   const offsetX = -page * FIRST_PAGE_COUNT * CARD_FULL_WIDTH;
 
   return (
-    <div className="max-w-[1580px] mx-auto mb-35">
+    <section className="max-w-[1640px] mx-auto mb-35">
       <div className="overflow-hidden pb-4">
         <div
-          className="flex gap-6 transition-transform duration-500 ease-in-out"
+          className="flex gap-10 transition-transform duration-500 ease-in-out"
           style={{ transform: `translateX(${offsetX}px)` }}
         >
           {sliderData.map((slide, index) => (
@@ -33,7 +33,8 @@ export default function Slider() {
                         {item.description}
                       </p>
                     )}
-                    <span className="inline-block rounded py-2 px-4 bg-white font-black text-base text-[#14183E]">
+                    <span className="inline-block rounded py-2 px-4 bg-white font-black 
+                    text-base text-[#14183E]">
                       {item.price}
                     </span>
                   </div>
@@ -41,7 +42,8 @@ export default function Slider() {
               </div>
 
               <div className="mt-auto border-t border-white rounded-b-xl bg-gray-500/50">
-                <p className="font-semibold text-base text-white min-h-[70px] px-4 py-[14px] flex items-center">
+                <p className="font-semibold text-base text-white min-h-[70px] px-4 py-[14px] 
+                flex items-center">
                   Цены на работу, без учета стоимости материалов
                 </p>
               </div>
@@ -64,6 +66,6 @@ export default function Slider() {
           aria-label="Показать оставшиеся карточки"
         />
       </div>
-    </div>
+    </section>
   );
 }

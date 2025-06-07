@@ -1,0 +1,51 @@
+[
+  {
+    "bgImage": "./main/services/1.svg",
+    "icon": "./main/services/icon1.svg",
+    "title": "Ремонт балконов",
+    "description": "Ваш балкон заиграет новыми красками",
+    "price": "от 20 000 ₽"
+  },
+  {
+    "bgImage": "./main/services/2.svg",
+    "icon": "./main/services/icon2.svg",
+    "title": "Отделка балкона",
+    "description": "Профессиональная отделка любых балконов",
+    "price": "от 22 000 ₽"
+  },
+  {
+    "bgImage": "./main/services/3.svg",
+    "icon": "./main/services/icon3.svg",
+    "title": "Крыша балкона",
+    "description": "Прочные и долговечные конструкции",
+    "price": "от 25 000 ₽"
+  },
+  {
+    "bgImage": "./main/services/4.svg",
+    "icon": "./main/services/icon4.svg",
+    "title": "Остекление балкона",
+    "description": "Закажите остекление прямо сейчас",
+    "price": "от 40 000 ₽"
+  },
+  {
+    "bgImage": "./main/services/5.svg",
+    "icon": "./main/services/icon5.svg",
+    "title": "Расширение балкона",
+    "description": "Профессиональное расширение балконов",
+    "price": "от 60 000 ₽"
+  },
+  {
+    "bgImage": "./main/services/6.svg",
+    "icon": "./main/services/icon6.svg",
+    "title": "Оконные и дверные откосы",
+    "description": "Внутренние и внешние",
+    "price": "от 5 000 ₽"
+  },
+  {
+    "bgImage": "./main/services/7.svg",
+    "icon": "./main/services/icon7.svg",
+    "title": "Обшивка наружных стен",
+    "description": "3000мм. на 900мм.",
+    "price": "от 40 000 ₽"
+  }
+]
